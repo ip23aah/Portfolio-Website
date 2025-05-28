@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ishika patel</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio of projects and work by Ishika patel - Computer Science Student">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1 class="nav-title">Ishika patel</h1>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="technical-interests.html" class="nav-link">Technical Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link active" aria-current="page">Portfolio</a>
+                    </li>
+                </ul>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">My Portfolio</h1>
+                <p class="page-subtitle">A showcase of my projects, applications, and technical achievements</p>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <div class="portfolio-grid">
+                    
+                    <article class="project-card" data-project="ecommerce" role="button" tabindex="0" aria-label="View E-commerce Platform project details">
+                        <div class="project-image">
+                            <img src="images/ecommerce-project.jpg" alt="E-commerce platform interface showing product listings and shopping cart" class="project-img">
+                            <div class="project-overlay">
+                                <div class="overlay-text">Click for Details</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">E-commerce Platform</h2>
+                            <p class="project-description">
+                                A full-stack e-commerce solution built with modern web technologies, featuring user authentication, 
+                                product management, shopping cart functionality, and secure payment processing.
+                            </p>
+                            <div class="project-links">
+                                <a href="project-details.html?project=ecommerce" class="project-link link-primary">View Details</a>
+                                <button class="project-link link-secondary modal-trigger" data-project="ecommerce">Quick View</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="taskmanager" role="button" tabindex="0" aria-label="View Task Management App project details">
+                        <div class="project-image">
+                            <img src="images/task-manager.jpg" alt="Task management application dashboard with project boards and to-do lists" class="project-img">
+                            <div class="project-overlay">
+                                <div class="overlay-text">Click for Details</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">Task Management App</h2>
+                            <p class="project-description">
+                                A collaborative task management application inspired by modern productivity tools, 
+                                featuring real-time updates, team collaboration, and intuitive drag-and-drop interfaces.
+                            </p>
+                            <div class="project-links">
+                                <a href="project-details.html?project=taskmanager" class="project-link link-primary">View Details</a>
+                                <button class="project-link link-secondary modal-trigger" data-project="taskmanager">Quick View</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="weatherapp" role="button" tabindex="0" aria-label="View Weather Forecast App project details">
+                        <div class="project-image">
+                            <img src="images/weather-app.jpg" alt="Weather application showing current conditions and 7-day forecast" class="project-img">
+                            <div class="project-overlay">
+                                <div class="overlay-text">Click for Details</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">Weather Forecast App</h2>
+                            <p class="project-description">
+                                A responsive weather application that provides accurate forecasts, location-based services, 
+                                and beautiful visualizations of weather data using external APIs.
+                            </p>
+                            <div class="project-links">
+                                <a href="project-details.html?project=weatherapp" class="project-link link-primary">View Details</a>
+                                <button class="project-link link-secondary modal-trigger" data-project="weatherapp">Quick View</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="chatbot" role="button" tabindex="0" aria-label="View AI Chatbot project details">
+                        <div class="project-image">
+                            <img src="images/chatbot.jpg" alt="AI chatbot interface with conversation bubbles and response suggestions" class="project-img">
+                            <div class="project-overlay">
+                                <div class="overlay-text">Click for Details</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">AI-Powered Chatbot</h2>
+                            <p class="project-description">
+                                An intelligent chatbot built with natural language processing capabilities, 
+                                featuring context awareness, multi-turn conversations, and integration with various APIs.
+                            </p>
+                            <div class="project-links">
+                                <a href="project-details.html?project=chatbot" class="project-link link-primary">View Details</a>
+                                <button class="project-link link-secondary modal-trigger" data-project="chatbot">Quick View</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="datavis" role="button" tabindex="0" aria-label="View Data Visualization Dashboard project details">
+                        <div class="project-image">
+                            <img src="images/data-visualization.jpg" alt="Data visualization dashboard with charts, graphs, and interactive elements" class="project-img">
+                            <div class="project-overlay">
+                                <div class="overlay-text">Click for Details</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">Data Visualization Dashboard</h2>
+                            <p class="project-description">
+                                An interactive dashboard for visualizing complex datasets with dynamic charts, 
+                                filters, and real-time data updates using modern visualization libraries.
+                            </p>
+                            <div class="project-links">
+                                <a href="project-details.html?project=datavis" class="project-link link-primary">View Details</a>
+                                <button class="project-link link-secondary modal-trigger" data-project="datavis">Quick View</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="mobileapp" role="button" tabindex="0" aria-label="View Mobile Fitness App project details">
+                        <div class="project-image">
+                            <img src="images/mobile-app.jpg" alt="Mobile fitness application showing workout tracking and progress charts" class="project-img">
+                            <div class="project-overlay">
+                                <div class="overlay-text">Click for Details</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h2 class="project-title">Mobile Fitness App</h2>
+                            <p class="project-description">
+                                A cross-platform mobile application for fitness tracking with workout planning, 
+                                progress monitoring, and social features for community engagement.
+                            </p>
+                            <div class="project-links">
+                                <a href="project-details.html?project=mobileapp" class="project-link link-primary">View Details</a>
+                                <button class="project-link link-secondary modal-trigger" data-project="mobileapp">Quick View</button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-stats">
+            <div class="container">
+                <h2 class="section-title">Project Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">💻</div>
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">GitHub Commits</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Years of Learning</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Quick View -->
+    <div class="modal" id="projectModal" role="dialog" aria-label="Project details modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2025 Ishika patel. Built with accessibility and usability in mind.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
